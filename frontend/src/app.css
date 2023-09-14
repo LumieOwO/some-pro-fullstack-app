@@ -1,0 +1,44 @@
+.choosing-badge {
+  width: 30px;
+  height: 30px;
+}
+
+.color-selection {
+  display: flex;
+  gap: 10px; 
+}
+
+.color-selection {
+  display: flex;
+}
+
+.color-block-red,
+.color-block-green {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 7.8px;
+}
+.match-bet-amount {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1eff00;
+}
+
+.match-bet-amount-num{
+  color: #01d0ff;
+}
+.color-block-red {
+  background-color: #dc3545;
+}
+
+.color-block-green {
+  background-color: #198754;
+}
+
+.color-block-red.selected,
+.color-block-green.selected {
+  outline: 2px solid rgba(255, 255, 255, 0.438);
+}
